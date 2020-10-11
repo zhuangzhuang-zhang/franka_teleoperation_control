@@ -1,0 +1,24 @@
+urdf_path: /home/master/ros/franka_teleoperation_v2/src/franka_modern_driver/franka_description/robots/panda_arm_with_tool.urdf
+base_frame: r_panda_link0
+end_frame: r_tool
+sim: false
+low_pass_fliter: false
+rcm_x: 0.6317
+rcm_y: -0.039096
+rcm_z: 0.1589
+rcmThreshold: 0.01
+keyboard: /dev/input/event7
+footswitch: /dev/input/event4
+master: omega
+usefootsitch: true
+
+camera_in_base1_qx: 0
+camera_in_base1_qy: 0.707107
+camera_in_base1_qz: -0.707107
+camera_in_base1_qw: 0
+camera_in_base1_x: 0
+camera_in_base1_y: 0
+camera_in_base1_z: 0
+
+eye_hand_cooperation: true
+rcm: true

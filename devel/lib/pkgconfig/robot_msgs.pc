@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/devel
+
+Name: robot_msgs
+Description: Description of robot_msgs
+Version: 0.0.0
+Cflags: -I/home/master/franka_final_ws/devel/include
+Libs: -L/home/master/franka_final_ws/devel/lib 
+Requires: 

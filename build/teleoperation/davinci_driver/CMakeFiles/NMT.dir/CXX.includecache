@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/master/franka_final_ws/src/teleoperation/davinci_driver/include/controlcan/can/can.h
+stdint.h
+-
+
+/home/master/franka_final_ws/src/teleoperation/davinci_driver/include/controlcan/canopen/NMT.h
+stdint.h
+-
+
+/home/master/franka_final_ws/src/teleoperation/davinci_driver/src/canopen/NMT.cpp
+controlcan/canopen/NMT.h
+/home/master/franka_final_ws/src/teleoperation/davinci_driver/src/canopen/controlcan/canopen/NMT.h
+controlcan/can/can.h
+/home/master/franka_final_ws/src/teleoperation/davinci_driver/src/canopen/controlcan/can/can.h
+

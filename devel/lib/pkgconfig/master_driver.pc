@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/devel
+
+Name: master_driver
+Description: Description of master_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/master/franka_final_ws/devel/lib 
+Requires: roscpp std_msgs robot_msgs

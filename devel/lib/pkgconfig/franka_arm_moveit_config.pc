@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/devel
+
+Name: franka_arm_moveit_config
+Description: Description of franka_arm_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/master/franka_final_ws/devel/lib 
+Requires: 

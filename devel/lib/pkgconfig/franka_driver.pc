@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/devel
+
+Name: franka_driver
+Description: Description of franka_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/master/franka_final_ws/devel/lib 
+Requires: 

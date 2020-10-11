@@ -1,0 +1,9 @@
+<launch>
+
+    <rosparam file="$(find master_driver)/config/arm_with_tool.yaml" command="load" />
+
+    <include file="$(find franka_description)/launch/arm_with_tool_real_display.launch" />
+
+	<node name="omega_driver" pkg="master_driver" type="omega_driver_node" />
+
+</launch>

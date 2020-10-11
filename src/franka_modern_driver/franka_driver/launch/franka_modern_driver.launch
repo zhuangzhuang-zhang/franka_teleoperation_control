@@ -1,0 +1,8 @@
+<launch>
+  <arg name="robot_ip" default="192.168.1.50" />
+
+  <node name="franka_modern_driver" pkg="franka_driver" type="franka_modern_driver" output="screen">
+  	<param name="robot_ip" value="$(arg robot_ip)"/>
+  </node>
+
+</launch>

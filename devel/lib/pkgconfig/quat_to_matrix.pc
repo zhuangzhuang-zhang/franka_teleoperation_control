@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/devel
+
+Name: quat_to_matrix
+Description: Description of quat_to_matrix
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/master/franka_final_ws/devel/lib 
+Requires: 

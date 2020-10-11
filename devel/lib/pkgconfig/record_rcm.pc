@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/devel
+
+Name: record_rcm
+Description: Description of record_rcm
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/master/franka_final_ws/devel/lib 
+Requires: 

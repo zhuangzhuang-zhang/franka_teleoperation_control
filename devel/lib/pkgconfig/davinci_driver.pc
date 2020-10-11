@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/devel
+
+Name: davinci_driver
+Description: Description of davinci_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/master/franka_final_ws/devel/lib 
+Requires: 

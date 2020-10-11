@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/devel
+
+Name: trac_ik_examples
+Description: Description of trac_ik_examples
+Version: 1.4.11
+Cflags: -I/usr/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3
+Libs: -L/home/master/franka_final_ws/devel/lib /usr/lib/x86_64-linux-gnu/libboost_date_time.so /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+Requires: trac_ik_lib

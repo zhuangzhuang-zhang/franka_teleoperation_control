@@ -1,0 +1,22 @@
+omega7 calibration
+
+cat /proc/bus/input/devices
+
+source
+roslaunch master_driver omega_dual_robot.launch //omega+yaml
+
+
+su
+123
+source
+/home/master/franka_final_ws# rosrun servo_control_class franka1_omega1_node
+/home/master/franka_final_ws# rosrun servo_control_class franka2_omega2_node 
+
+
+
+mode3
+
+mode0
+
+
+

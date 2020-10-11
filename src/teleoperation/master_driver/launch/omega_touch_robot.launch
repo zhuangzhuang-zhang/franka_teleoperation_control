@@ -1,0 +1,12 @@
+<launch>
+
+    <rosparam file="$(find master_driver)/config/dual_robot_param.yaml" command="load" />
+
+    <!--<include file="$(find franka_description)/launch/dual_arm_real_display.launch" />-->
+
+	<node name="omega_driver_node" pkg="master_driver" type="omega_driver_node" />
+    <node name="touch_driver_node" pkg="master_driver" type="touch_driver_node" />
+
+    <node name="rviz" pkg="rviz" type="rviz" />
+
+</launch>

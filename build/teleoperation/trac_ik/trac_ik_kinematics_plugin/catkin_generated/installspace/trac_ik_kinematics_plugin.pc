@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/install
+
+Name: trac_ik_kinematics_plugin
+Description: Description of trac_ik_kinematics_plugin
+Version: 1.4.11
+Cflags: -I/home/master/franka_final_ws/install/include
+Libs: -L/home/master/franka_final_ws/install/lib 
+Requires: moveit_core pluginlib roscpp tf_conversions trac_ik_lib

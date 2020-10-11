@@ -1,0 +1,17 @@
+<launch>
+  <arg name="gui" default="True" />
+  <param name="robot_description" textfile="$(find franka_description)/robots/panda_arm.urdf" />
+  <param name="use_gui" value="$(arg gui)" />
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
+    <param name="use_gui" value="true"/>
+    <param name="zeros/panda_joint1" value="0.0" />
+	<param name="zeros/panda_joint2" value="-0.7849"/>
+	<param name="zeros/panda_joint3" value="-0.0007"/>
+	<param name="zeros/panda_joint4" value="-2.3561"/>
+	<param name="zeros/panda_joint5" value="0.000474"/>
+	<param name="zeros/panda_joint6" value="1.57123"/>
+    <param name="zeros/panda_joint7" value="0.78551"/>
+  </node>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />  
+  <node name="rviz" pkg="rviz" type="rviz" /> 
+</launch>

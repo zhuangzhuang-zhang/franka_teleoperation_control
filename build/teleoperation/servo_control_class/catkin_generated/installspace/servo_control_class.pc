@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/install
+
+Name: servo_control_class
+Description: Description of servo_control_class
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/master/franka_final_ws/install/lib 
+Requires: 

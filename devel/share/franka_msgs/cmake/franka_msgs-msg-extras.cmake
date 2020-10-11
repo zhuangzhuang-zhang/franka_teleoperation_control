@@ -1,0 +1,2 @@
+set(franka_msgs_MESSAGE_FILES "/home/master/franka_final_ws/src/franka_modern_driver/franka_msgs/msg/Errors.msg;/home/master/franka_final_ws/src/franka_modern_driver/franka_msgs/msg/FrankaState.msg;/home/master/franka_final_ws/src/franka_modern_driver/franka_msgs/msg/servoj.msg")
+set(franka_msgs_SERVICE_FILES "/home/master/franka_final_ws/src/franka_modern_driver/franka_msgs/srv/error_recovery.srv")

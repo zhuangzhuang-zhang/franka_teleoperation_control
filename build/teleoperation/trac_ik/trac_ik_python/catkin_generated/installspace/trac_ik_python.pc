@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/install
+
+Name: trac_ik_python
+Description: Description of trac_ik_python
+Version: 1.4.11
+Cflags: 
+Libs: -L/home/master/franka_final_ws/install/lib 
+Requires: 

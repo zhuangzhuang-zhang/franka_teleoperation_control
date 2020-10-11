@@ -1,0 +1,9 @@
+<launch>
+
+    <rosparam file="$(find master_driver)/config/real_robot_param.yaml" command="load" />
+
+    <include file="$(find franka_description)/launch/panda_arm_real_display.launch" />
+
+	<node name="touch_driver" pkg="master_driver" type="touch_driver_node" />
+
+</launch>

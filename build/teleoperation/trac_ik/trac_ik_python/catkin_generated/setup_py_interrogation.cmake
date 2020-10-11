@@ -1,0 +1,6 @@
+set(trac_ik_python_SETUP_PY_VERSION "1.4.11")
+set(trac_ik_python_SETUP_PY_SCRIPTS "")
+set(trac_ik_python_SETUP_PY_PACKAGES "trac_ik_python")
+set(trac_ik_python_SETUP_PY_PACKAGE_DIRS "src/trac_ik_python")
+set(trac_ik_python_SETUP_PY_MODULES "")
+set(trac_ik_python_SETUP_PY_MODULE_DIRS "")

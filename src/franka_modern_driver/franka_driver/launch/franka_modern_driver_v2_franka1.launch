@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="franka1_modern_driver" pkg="franka_driver" type="franka1_modern_driver" output="screen"/>
+
+</launch>

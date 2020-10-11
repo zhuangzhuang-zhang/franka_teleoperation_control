@@ -1,0 +1,8 @@
+prefix=/home/master/franka_final_ws/install
+
+Name: trac_ik_lib
+Description: Description of trac_ik_lib
+Version: 1.4.11
+Cflags: -I/home/master/franka_final_ws/install/include -I/usr/include
+Libs: -L/home/master/franka_final_ws/install/lib -ltrac_ik /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+Requires: kdl_parser roscpp urdf

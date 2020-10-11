@@ -1,0 +1,36 @@
+urdf_path: /home/master/franka_final_ws/src/franka_modern_driver/franka_description/robots/panda_arm_two.urdf
+base_frame_franka1: panda1_link0
+end_frame_franka1: panda1_tool
+base_frame_franka2: panda2_link0
+end_frame_franka2: panda2_tool
+sim: false
+low_pass_fliter: false
+rcm_x_franka1: 0.64729
+rcm_y_franka1: -0.21977
+rcm_z_franka1: 0.30939
+rcmThreshold_franka1: 0.02
+rcm_x_franka2: 0.68664
+rcm_y_franka2: 0.1326
+rcm_z_franka2: 0.35466
+rcmThreshold_franka2: 0.02
+keyboard: /dev/input/event5
+footswitch: /dev/input/event8
+
+camera_in_base1_qx_franka1: -0.707107
+camera_in_base1_qy_franka1: 0
+camera_in_base1_qz_franka1: 0
+camera_in_base1_qw_franka1: 0.707107
+camera_in_base1_x_franka1: 0
+camera_in_base1_y_franka1: 0
+camera_in_base1_z_franka1: 0
+
+camera_in_base1_qx_franka2: 0
+camera_in_base1_qy_franka2: 0.707107
+camera_in_base1_qz_franka2: -0.707107
+camera_in_base1_qw_franka2: 0
+camera_in_base1_x_franka2: 0
+camera_in_base1_y_franka2: 0
+camera_in_base1_z_franka2: 0
+
+eye_hand_cooperation: true
+rcm: true

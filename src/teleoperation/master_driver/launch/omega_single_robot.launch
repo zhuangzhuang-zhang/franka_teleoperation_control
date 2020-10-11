@@ -1,0 +1,9 @@
+<launch>
+
+    <rosparam file="$(find master_driver)/config/single_robot_param.yaml" command="load" />
+
+    <include file="$(find franka_description)/launch/panda_arm_real_display.launch" />
+
+	<node name="omega_driver_node" pkg="master_driver" type="omega_driver_node" />
+
+</launch>
